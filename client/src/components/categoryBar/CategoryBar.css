@@ -1,0 +1,28 @@
+.CategoryBar{
+    /* height: 55px;
+    background-color: #42404f;
+    color: white; */
+    text-align: center;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+.items{
+    margin: 0px, 20px;
+    justify-content: space-evenly;
+}
+
+.Category {
+    /* color: white; */
+    padding-left: 25px;
+}
+
+.Category:hover {
+    text-decoration: none;
+    /* color: #aca6db; */
+    padding-left: 25px;
+}
+
+.navitem {
+padding: 15px, 15px;
+height: auto;
+}

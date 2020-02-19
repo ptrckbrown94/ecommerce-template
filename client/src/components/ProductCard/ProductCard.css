@@ -1,0 +1,92 @@
+.productCard{
+ border-radius: -2px;
+    border: none;
+    margin-bottom: 25px;
+    width: 100%;
+    
+}
+
+.cardImage{
+    position: relative;
+    border-radius: 0px;
+    box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.5);
+    transition: .5s ease;
+    /* height: 300px; */
+}
+
+
+.productName{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    width: 90%;
+    position: absolute;
+    font-size: 22px;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.productName:hover{
+    background-color: #42404fe5;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 90%;
+    position: absolute;
+    font-size: 22px;
+    z-index: 999;
+    text-decoration: none;
+}
+
+
+.cardOpts{
+    align-content: center;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 7px;
+    /* margin: 0px;
+    padding:0px; */
+}
+
+
+.cardButton{
+    background-color: #ebebeb;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    padding-top: 5px;
+    margin: 0px, 0px;
+    /* padding: 10px, 10px; */
+    width: 100%;
+    height: 100%;
+    box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.3);
+}
+
+.cardCol{
+    padding:0px;
+}
+.cardButton:hover{
+    background-color: #c9c9c9;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    
+}
+
+.FAIcon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
